@@ -1,0 +1,25 @@
+{
+  "name": "heroku-cli-static",
+  "version": "0.0.1",
+  "description": "static app generator",
+  "main": "index.js",
+  "author": [
+    "Terence Lee @hone02",
+    "Matt Creager @matt_creager"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hone/heroku-cli-static"
+  },
+  "bugs": {
+    "url": "https://github.com/heroku/heroku-cli-static/issues"
+  },
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "0.8.5",
+    "json-stringify-safe": "5.0.1"
+  }
+}
