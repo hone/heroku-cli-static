@@ -19,7 +19,10 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "heroku-cli-util": "5.2.1",
     "inquirer": "0.8.5",
-    "json-stringify-safe": "5.0.1"
+    "json-stringify-safe": "5.0.1",
+    "mktmpdir": "0.1.1",
+    "request": "2.58.0"
   }
 }

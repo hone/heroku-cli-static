@@ -3,6 +3,7 @@
 let pkg = require('./package.json');
 
 const TOPIC = 'static';
+const CONFIG_FILE = 'static.json';
 
 exports.topic = {
   name: TOPIC,
@@ -10,5 +11,6 @@ exports.topic = {
 };
 
 exports.commands = [
-  require('./lib/commands/init.js')(TOPIC)
+  require('./lib/commands/init.js')(TOPIC, CONFIG_FILE),
+  require('./lib/commands/deploy.js')(TOPIC, CONFIG_FILE)
 ];
