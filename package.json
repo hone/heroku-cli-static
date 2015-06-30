@@ -19,6 +19,7 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "archiver": "0.14.4",
     "heroku-cli-util": "5.2.1",
     "inquirer": "0.8.5",
     "json-stringify-safe": "5.0.1",
