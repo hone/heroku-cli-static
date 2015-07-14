@@ -6,5 +6,16 @@ This is a plugin for helping with the [static buildpack](https://github.com/hone
 
 ## Install
 ```sh
-$ heroku plugins:install https://github.com/hone/heroku-cli-static
+$ heroku plugins:install heroku-cli-static
+```
+
+## Development
+
+To start working on the plugin, follow the directions below to get it up and running. See the [Heroku DevCenter article](https://devcenter.heroku.com/articles/developing-toolbelt-plug-ins#installing-the-plugin) for more info.
+
+```
+$ git clone https://github.com/hone/heroku-cli-static
+$ cd heroku-cli-static
+$ npm install
+$ heroku plugins:link
 ```
