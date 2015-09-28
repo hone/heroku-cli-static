@@ -30,8 +30,5 @@
     "mz": "^2.0.0",
     "request": "2.58.0",
     "request-promise": "^0.4.2"
-  },
-  "devDependencies": {
-    "axios": "^0.5.4"
   }
 }
