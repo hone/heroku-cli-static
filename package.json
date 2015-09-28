@@ -20,10 +20,15 @@
   "license": "ISC",
   "dependencies": {
     "archiver": "0.14.4",
+    "axios": "^0.5.4",
+    "bluebird": "^2.9.34",
+    "co": "^4.6.0",
     "heroku-cli-util": "5.2.1",
     "inquirer": "0.8.5",
     "json-stringify-safe": "5.0.1",
     "mktmpdir": "0.1.1",
-    "request": "2.58.0"
+    "mz": "^2.0.0",
+    "request": "2.58.0",
+    "request-promise": "^0.4.2"
   }
 }
