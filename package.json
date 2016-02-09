@@ -1,7 +1,7 @@
 {
   "name": "heroku-cli-static",
-  "version": "0.0.1",
-  "description": "static app generator",
+  "version": "1.0.0",
+  "description": "Heroku CLI Plugin for Single Page Apps",
   "main": "index.js",
   "author": [
     "Terence Lee @hone02",
