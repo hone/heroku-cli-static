@@ -19,7 +19,7 @@
   ],
   "license": "ISC",
   "dependencies": {
-    "archiver": "0.14.4",
+    "archiver": "^1.0.0",
     "axios": "^0.5.4",
     "bluebird": "^2.9.34",
     "co": "^4.6.0",
